@@ -7,7 +7,7 @@ async function bootstrap() {
   const app = configureApp(await NestFactory.create(AppModule));
   const port = Number(process.env.PORT ?? 3000);
   await app.listen(port, '0.0.0.0');
-  Logger.log(`🚀 API escuchando en http://localhost:${port}/api`, 'Bootstrap');
+  Logger.log(`🚀 API escuchando en http://localhost:${port}/api     esta es la v2 `, 'Bootstrap');
 }
 
 void bootstrap();
