@@ -7,6 +7,6 @@
  */
 export const APP_CONFIG = {
   name: 'API CI/CD NestJS',
-  version: '2.0.0',
-  message: '🚀 API desplegada con CI/CD - v1',
+  version: '3.0.0',
+  message: '🚀 API desplegada con CI/CD - v3',
 };
